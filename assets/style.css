@@ -6,26 +6,17 @@
   color: blueviolet;
   background-color: black;
   line-height: 1.5;
-
 }
 
 :root {
   --light: aquamarine;
 }
 
-}
-
-body {
-  display: flex;
-  line-height: 1.5;
-  /* color: blueviolet; */
-  font-family: 'Playfair Display', serif;
-}
-
 header {
+  /* display: flex; */
   font-family: 'Playfair Display', serif;
   background-color: var(--light);
-  padding: 3%;
+  padding: 1%;
   border-radius: 50px;
   border-color: black;
   border-style: dotted;
@@ -33,7 +24,6 @@ header {
 }
 
 h1 {
-  /* font-family: 'Playfair Display', serif; */
   font-size: 400%;
   background-color: transparent;
 }
@@ -42,15 +32,14 @@ h1::after {
   content: 'Tisha Anderson';
   margin-left: 10px;
   color: rgb(171, 121, 219);
-  font-size: 85%;
+  font-size: 75%;
 }
 
 header p {
   background-color: transparent;
-  border-radius: 10px;
   display: flex;
   justify-content: flex-end;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 nav ul {
@@ -58,31 +47,45 @@ nav ul {
   justify-content: space-around;
   font-size: 150%;
   padding: 1%;
-  width: 100%;
 }
 
-h2::before,
-h2::after {
+nav ul li a::before,
+nav ul li a::after {
   content: '\2661';
   margin-top: 10px;
 }
 
-main {
-  font-size: 24px;
-
-}
+/* main {
+  font-size: 16px;
+} */
 
 .container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex: 1;
+  background-color: var(--light);
+  padding: 3%;
+  border-radius: 50px;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 5% 2% 5%;
+
+  
 }
 
-.container img {
-  width: 400px;
-  height: 400px;
-}
-.about-me-info {
 
+
+h3 {
+  font-size: x-large;
+  border-radius: 50px;
+  margin: 0 35% 2% 35%;
+  padding: 5px;
+}
+
+#house-pic,
+#yard-pic,
+#smokey-pic,
+#unt-icon {
+  max-height: 200px;
+}
+
+#coding-pic {
+  max-height: 400px;
 }
