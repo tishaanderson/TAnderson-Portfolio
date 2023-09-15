@@ -81,11 +81,15 @@ h3 {
 
 #house-pic,
 #yard-pic,
-#smokey-pic,
-#unt-icon {
-  max-height: 200px;
+#smokey-pic {
+  height: 200px;
+  width: 150px;
 }
 
-#coding-pic {
-  max-height: 400px;
+#unt-icon {
+  height: 100px;
+}
+
+#horiseon-icon {
+  max-height: 250px;
 }
