@@ -99,6 +99,9 @@ ol li {
   height: 400px;
   width: 80%;
   margin: 30px auto;
+  border-color: rgb(228, 23, 125);
+  border-style: dotted;
+  border-width: 5px;
 }
 
 .page-pics {
@@ -108,7 +111,7 @@ ol li {
   border-radius: 50%;
   background-color: black;
   border-color: whitesmoke;
-  border-width: 8px;
+  border-width: 10px;
   border-style: dotted;
   margin-top: 3%;
 }
@@ -140,6 +143,12 @@ ol li {
 
 #email-popup:hover::after {
   content: "anderson-email@gmail.com";
+  color: black;
+  margin-left: 10px;
+}
+
+#github-popup:hover::after {
+  content: "check out my repos";
   color: black;
   margin-left: 10px;
 }
