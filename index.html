@@ -1,116 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TAnderson Portfolio</title>
-  <link rel="stylesheet" href="./assets/reset.css">
-  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
 
 </head>
 <body>
+  
   <header>
 
     <h1 class="page-title">First Portfolio</h1>
-    <p>Hey there. Please take it easy on me. This is my first porfolio ever. **Therefore:: I promise nothing**</p>
+    <p>Please enjoy the debut of my very first portfolio</p>
 
   </header>
 
   <nav>
-      <ul>
-        <li>
-          <a href="#about-me-info">About Me</a>
-        </li>
-        <li>
-          <a href="#portfolio-info">My Porfolio</a>
-        </li>
-        <li>
-          <a href="#contact-info">Contact Info</a>
-        </li>
-      </ul>
+    <ul>
+      <li>
+        <a href="#about-me">About Me</a>
+      </li>
+      <li>
+        <a href="#portfolio-info">My Porfolio</a>
+      </li>
+      <li>
+        <a href="#contact-info">Contact Info</a>
+      </li>
+    </ul>
+
+</nav>
+
+<main class="page-content">
+
+  <section class="container" id="about-me-section">
+
+    <h2 id="about-me"><- A bit about me -></h2>
+
+    <img class="page-pics" id="profile-pic" src="./assets/images/selfie1.jpg" alt="selfie of tisha">
+
+    <p>I know nothing about coding, but I am very excited to learn and make a huge life change!</p>
+
+  </section>
     
-    <!-- <h2><a href="#about-me-info">About Me</a></h2>
-    <h2><a href="#portfolio-info"></a>Projects</h2>
-    <h2><a href="#contact-info"></a>Contact Info</h2> -->
-
-  </nav>
-
-  <main class="container">
-
-    <section class="container" id="about-me-section">
-
-      <h3 id="about-me-info"> <- A bit about me -> </h3>
-
-        <figure>
-
-          <img id="house-pic" src="./assets/images/tisha-house.jpg" alt="tisha standing in a stregth pose infront of rose bushes and tiny house">
-
-        </figure>
-
-        
-
-        <p id="unt-paragraph">I know nothing...I mean, NOTHING!!... about coding. In 2013, I graduated from the University of North Texas with a Bachelor of Science in Applied Behavior Analysis. Unfortunately, I never had an opportunity to use my degree. Instead, I worked the next 6 years bartending at various restaurants. It was pretty kush, however, nearing my 30s, I realized having steady health insurance might be nice.</p>
-        
-        <img id="unt-icon" src="./assets/images/unt-icon.png" alt="university of north texas seal">
-
-        <p id="work-paragraph">In February of 2020, I started working in a custom print shop just in-time for the covid shut downs to begin. I had health insurance immediately with my new job. I kept bartending on the weekends until the restraunts shut down. I got SO lucky!!! I made my change EXACTLY when I needed.</p>
-
-        <p id="middle-paragraph">THANK YOU, UNIVERSE!!</p>
-
-        <p id="dog-paragraph">While working there, I met my best friend and love of my life. A few months after that, I got my first fur-baby, Smokey (aka Smokey Bear). <img id="smokey-pic" src="./assets/images/smokey-pic.jpg" alt="full body image of gray and white pitbull looking directly at camera"> A year later, I bought my first [tiny] house, on an acre, in the middle of nowhere, texas.<img id="yard-pic" src="./assets/images/backyard-pic.jpg" alt="green country landscape with sunset and donkeys in the background"> We had to quickly fill that space with two sweet girls- Wendy and Moody.</p>
-
-        <img id="pilot-pic" src="./assets/images/Pilot-pic.png" alt="black and tan dog with tongue hanging out walking towards camera">
-
-        <img id="girls-pic" src="./assets/images/girls-pic.jpg" alt="dalmation pup and golden malinois-X dog lying next to each other with smiles and tongues hanging out looking at camera">
-
-        <p id="life-paragraph">I absolutely LOVE where I am in life right now. The only thing missing is the ability to be home more. I want the freedom to work wherever I'd like and, of course, have the financial freedom that can come with it. So, here I am! I believe coding can be that solution for me. It just makes sense. My hopes are this can be the cherry on top for reaching my dreams in life.</p>
-
-        <p>With all that said-- don't judge too hard!</p>
-
-    </section>
-
-    <section class="container">
-
-      <h3 id="portfolio-info"> <- Project Time! -> </h3>
-
-        <figure>
-
-          <a href="https://github.com/tishaanderson/Horiseon-site">
-
-            <img id="horiseon-icon" src="./assets/images/horiseon-icon.png" alt="code displayed across screen">
-
-          </a>          
-
-          <figcaption> 
-            Horiseon Site:
-          </figcaption>
-
-        </figure>
-
-        <p>Refactoring the Horiseon website was my first challenge within SMU Coding Bootcamp. Check it out by clicking the image above.</p>
-      
-      
-
-    </section>
-
-    <section class="container">
-
-      <h3 id="contact-info"> <- Contact Me -> </h3>
-
-        <img id="contact-pic" src="./assets/images/contact-me-image.jpg" alt="text of 'contact me' displayed above pink arrow">
-
-        <ol>
-          <li id="email-popup"> <a href="#">Email</a></li>
-          <li> <a href="#">Resume</a></li>
-        </ol>
-
-    </section>
-
-  </main>
-
+  <section class="container" id="portfolio-section" >
   
+    
+    <h2 id="portfolio-info"> <- Project Time! -> </h2>
+  
+    <a href="https://tishaanderson.github.io/Horiseon-site/">
+      <img class="page-pics" id="horiseon-icon" src="./assets/images/horiseon-icon.png" alt="code displayed across screen">
+    </a>          
+
+    <p>Horiseon Site: Refactoring the Horiseon website was my first challenge within SMU Coding Bootcamp. Check it out by clicking the Horiseon icon.</p>
+      
+  </section>
+
+  <section class="container" id="contact-section">
+
+    <h2 id="contact-info"> <- Contact Me -> </h2>
+  
+    <img class="page-pics" id="contact-pic" src="./assets/images/contact-me-image.jpg" alt="text of 'contact me' displayed above pink arrow">
+  
+    <ol class="contact-links">
+      <li id="email-popup"> <a href="#">Email</a></li>
+      <li> <a href="#">Resume</a></li>
+      <li> <a href="https://github.com/tishaanderson?tab=repositories">GitHub</a></li>
+    </ol>
+  
+  </section>
+  
+
+</main>
+
 </body>
 </html>

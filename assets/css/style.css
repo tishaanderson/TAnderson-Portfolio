@@ -1,0 +1,186 @@
+* {
+  font-family: 'Playfair Display', serif;
+  color: blueviolet;
+  /* background-color: black; */
+  line-height: 1.5;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+:root {
+  --light: aquamarine;
+}
+
+header {
+  /* display: flex; */
+  font-family: 'Playfair Display', serif;
+  background-color: var(--light);
+  padding: 1%;
+  border-radius: 50px;
+  border-color: black;
+  border-style: dotted;
+  border-width: 10px;
+}
+
+h1 {
+  font-size: 400%;
+  background-color: transparent;
+}
+
+h1::after {
+  content: 'Tisha Anderson';
+  margin-left: 10px;
+  color: rgb(171, 121, 219);
+  font-size: 75%;
+}
+
+header p {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 150%;
+  padding: 1%;
+}
+
+nav ul li a::before,
+nav ul li a::after {
+  content: '\2661';
+  margin-top: 10px;
+}
+
+main {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  /* display: inline-block; */
+
+}
+
+h2 {
+  background-color: black;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+main p {
+  background-color: transparent;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10%;
+}
+
+ol li {
+  display: flex;
+  justify-content: center;
+  margin-right: 10%;
+  margin-top: 25px;
+  font-size: 35px;
+}
+
+.container {
+  background-color: var(--light);
+  padding: 50px;
+  border-radius: 20px;
+  height: 400px;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.page-pics {
+  float: left;
+  margin-right: 40px;  
+  max-height: 350px;
+  border-radius: 50%;
+  background-color: black;
+  border-color: whitesmoke;
+  border-width: 8px;
+  border-style: dotted;
+  margin-top: 3%;
+}
+
+#profile-pic {
+  margin-top: 0;
+  width: 20%;
+  /* margin-top: 3%; */
+  margin-left: 50px;
+}
+
+#horiseon-icon {
+  width: 40%;
+  /* margin-top: 3%; */
+  height: 200px;
+}
+
+#horiseon-icon:hover{
+  opacity: .5;
+}
+
+#contact-pic {
+  margin-top: 5%;
+  width: 25%;
+  margin-left: 100px;
+  /* margin-top: 60px;
+  margin-left: 300px; */
+}
+
+#email-popup:hover::after {
+  content: "anderson-email@gmail.com";
+  color: black;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  main p {
+    display: block;
+    font-size: 15px;
+  }
+
+  ol li {
+    font-size: 15px;
+    margin: 10px 0;
+  }
+  
+  .container {
+    height: 350px;
+  }
+
+  .page-pics {
+    margin-left: 0;
+    /* height: 80px;
+    width: 50%; */
+    /* height: 150px; */
+  }
+
+  #horiseon-icon {
+    height: 50%;
+    width: 60%;
+  }
+
+  #contact-pic {
+    width: 50%;
+    margin-left: 0;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  #horiseon-icon {
+    height: 25%;
+    width: 40%;
+  }
+}
