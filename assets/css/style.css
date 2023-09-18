@@ -144,7 +144,7 @@ ol li {
   margin-left: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   main p {
     display: block;
     font-size: 15px;
@@ -155,32 +155,48 @@ ol li {
     margin: 10px 0;
   }
   
-  .container {
-    height: 350px;
+  h2 {
+    font-size: 18px;
   }
 
-  .page-pics {
-    margin-left: 0;
-    /* height: 80px;
-    width: 50%; */
-    /* height: 150px; */
+  .container {
+    height: 275px;
+    margin: 10px auto;
+    padding: 25px;
   }
 
   #horiseon-icon {
-    height: 50%;
-    width: 60%;
+    width: 40%;
+    height: 60%;
   }
 
   #contact-pic {
-    width: 50%;
-    margin-left: 0;
+    width: 30%;
+    margin-left: 50px;
   }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 426px) {
+  #about-me-section,
+  #contact-section {
+    height: 175px;
+  }
+  
+  main p {
+    font-size: 13px;
+  }
+
   #horiseon-icon {
+    width: 50%;
     height: 25%;
-    width: 40%;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+
+  #contact-pic {
+    height: 75px;
+    width: 100px;
+    margin: 0;
   }
 }
