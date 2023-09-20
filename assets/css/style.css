@@ -17,6 +17,8 @@ html {
   --light: aquamarine;
 }
 
+/* commented out properties for better visual asthetics */
+
 header {
   /* display: flex; */
   font-family: 'Playfair Display', serif;
@@ -116,6 +118,8 @@ ol li {
   margin-top: 3%;
 }
 
+/* individually styled each pic to fit to its own container properly because styling them together did not look visually appealing*/
+
 #profile-pic {
   margin-top: 0;
   width: 20%;
@@ -152,6 +156,9 @@ ol li {
   color: black;
   margin-left: 10px;
 }
+
+/* resized fonts in order to keep them fitting in the containers at smaller screen sizes  */
+/* only resized #about-me-section and #contact-section containers to get rid of dead space on screens when viewing from smaller viewports */
 
 @media screen and (max-width: 769px) {
   main p {

@@ -1,4 +1,4 @@
-# TAnderson-Portfolio-Challenge2
+# TAnderson-Portfolio # (Challenge#2)
 
 ## Description
 
@@ -6,7 +6,7 @@
 I am creating my first portfolio for employers to reference online.
 ```
 
-## User Story
+### User Story
 
 ```
 AS AN employer
@@ -15,7 +15,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 ```
 
 
-## Acceptance Criteria
+#### Acceptance Criteria
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
@@ -34,3 +34,9 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+
+
+##### Links
+
+[Portfolio Link] (https://tishaanderson.github.io/TAnderson-Portfolio/)
+
