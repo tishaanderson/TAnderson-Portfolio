@@ -40,3 +40,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 [Portfolio Link] (https://tishaanderson.github.io/TAnderson-Portfolio/)
 
+![application-screenshot](https://github.com/tishaanderson/TAnderson-Portfolio/assets/136303804/9c794f1b-229e-4072-867e-c8aac6e96700)
+
+
