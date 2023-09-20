@@ -83,7 +83,7 @@ main p {
   font-size: 25px;
   display: flex;
   justify-content: flex-start;
-  margin-top: 10%;
+  margin-top: 7%;
 }
 
 ol li {
@@ -133,7 +133,19 @@ ol li {
   height: 200px;
 }
 
-#horiseon-icon:hover{
+/*add css to 2nd project in portfolio*/
+
+#landing-pic {
+  width: 225px;
+  height: 125px;
+  border: solid;
+  border-color: black;
+  border-radius: 48%;
+  margin-top: 100px;
+}
+
+#horiseon-icon:hover,
+#landing-pic:hover {
   opacity: .5;
 }
 
@@ -159,10 +171,48 @@ ol li {
 
 /* resized fonts in order to keep them fitting in the containers at smaller screen sizes  */
 /* only resized #about-me-section and #contact-section containers to get rid of dead space on screens when viewing from smaller viewports */
+/* added 3rd media query in order to fit text in containers when sizing-down viewport */
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 905px) {
   main p {
     display: block;
+    font-size: 20px;
+    margin-top: 3%;
+  }
+
+  ol li {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+
+  #horiseon-icon {
+    width: 250px;
+    height: 150px;
+  }
+
+  #landing-pic {
+    width: 200px;
+    height: 100px;
+    margin-top: 75px;
+  }
+
+  #about-me-section,
+  #contact-section {
+    height: 220px;
+  }
+
+  #contact-pic {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width: 769px) {
+  main p {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 15px;
   }
 
@@ -172,7 +222,7 @@ ol li {
   }
   
   h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .container {
@@ -186,10 +236,34 @@ ol li {
     height: 60%;
   }
 
+  #landing-pic {
+    width: 175px;
+    height: 75px;
+    margin-top: 50px;
+  }
+
   #contact-pic {
     width: 30%;
     margin-left: 50px;
   }
+
+}
+
+@media screen and (max-width: 540px) {
+#portfolio-section p {
+  font-size: 13px;
+  /* margin-top: 0; */
+}
+
+#landing-pic {
+  width: 120px;
+  height: 40px;
+  margin-top: 50px;
+}
+
+ol li {
+  font-size: 13px;
+}
 
 }
 
@@ -200,7 +274,15 @@ ol li {
   }
   
   main p {
-    font-size: 13px;
+    font-size: 11px;
+  }
+
+  ol li {
+    font-size: 10px;
+  }
+
+  #portfolio-section p {
+    font-size: 10px;
   }
 
   #horiseon-icon {
@@ -214,5 +296,13 @@ ol li {
     height: 75px;
     width: 100px;
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #landing-pic {
+    width: 100px;
+    height: 40px;
+    margin-top: 50px;
   }
 }
